@@ -141,7 +141,7 @@ font-family:"Poppins",sans-serif;
 
 /* background */
 .main_box{
-background:url("C:/Users/user/Downloads/download (7).jpg") no-repeat center;
+background:url("./photo.jpg") no-repeat center;
 background-size:cover;
 height:100vh;
 }
@@ -266,3 +266,4 @@ left:0;
 #check:checked ~ .btn_one{
 opacity:0;
 }
+
