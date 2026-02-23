@@ -1,0 +1,268 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins",sans-serif;
+}
+
+/* background */
+.main_box{
+background:url("photo.jpg") no-repeat center;
+background-size:cover;
+height:100vh;
+}
+
+/* open button */
+.btn_one{
+font-size:30px;
+color:white;
+position:absolute;
+left:16px;
+line-height:60px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn_one:hover{
+transform:scale(1.1);
+}
+
+/* sidebar */
+.sidebar_menu{
+position:fixed;
+left:-300px;
+height:100vh;
+width:300px;
+
+/* glass effect */
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+
+box-shadow:0 0 10px rgba(255,255,255,0.3);
+transition:all 0.4s ease;
+}
+
+/* logo */
+.sidebar_menu .logo{
+width:100%;
+line-height:60px;
+box-shadow:0 0 5px rgba(255,255,255,0.3);
+}
+
+.sidebar_menu .logo a{
+color:white;
+text-decoration:none;
+font-size:18px;
+padding-left:20px;
+}
+
+/* close button */
+.sidebar_menu .btn_two{
+position:absolute;
+right:20px;
+top:10px;
+font-size:25px;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sidebar_menu .btn_two:hover{
+transform:rotate(90deg);
+}
+
+/* menu */
+.sidebar_menu .menu{
+margin-top:20px;
+}
+
+.sidebar_menu .menu li{
+list-style:none;
+padding:15px 20px;
+transition:0.3s;
+}
+
+.sidebar_menu .menu li:hover{
+background:rgba(255,255,255,0.2);
+padding-left:30px;
+}
+
+.sidebar_menu .menu a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+.sidebar_menu .menu i{
+color:white;
+padding-right:10px;
+}
+
+/* social icons */
+.sidebar_menu .social_media{
+position:absolute;
+bottom:50px;
+left:25px;
+}
+
+.sidebar_menu .social_media a{
+color:white;
+opacity:0.6;
+padding:5px;
+font-size:20px;
+transition:0.3s;
+}
+
+.sidebar_menu .social_media a:hover{
+opacity:1;
+transform:scale(1.2);
+}
+
+/* checkbox */
+#check{
+display:none;
+}
+
+/* open sidebar animation */
+#check:checked ~ .sidebar_menu{
+left:0;
+}
+
+/* hide hamburger */
+#check:checked ~ .btn_one{
+opacity:0;
+}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins",sans-serif;
+}
+
+/* background */
+.main_box{
+background:url("C:/Users/user/Downloads/download (7).jpg") no-repeat center;
+background-size:cover;
+height:100vh;
+}
+
+/* open button */
+.btn_one{
+font-size:30px;
+color:white;
+position:absolute;
+left:16px;
+line-height:60px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn_one:hover{
+transform:scale(1.1);
+}
+
+/* sidebar */
+.sidebar_menu{
+position:fixed;
+left:-300px;
+height:100vh;
+width:300px;
+
+/* glass effect */
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(10px);
+
+box-shadow:0 0 10px rgba(255,255,255,0.3);
+transition:all 0.4s ease;
+}
+
+/* logo */
+.sidebar_menu .logo{
+width:100%;
+line-height:60px;
+box-shadow:0 0 5px rgba(255,255,255,0.3);
+}
+
+.sidebar_menu .logo a{
+color:white;
+text-decoration:none;
+font-size:18px;
+padding-left:20px;
+}
+
+/* close button */
+.sidebar_menu .btn_two{
+position:absolute;
+right:20px;
+top:10px;
+font-size:25px;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.sidebar_menu .btn_two:hover{
+transform:rotate(90deg);
+}
+
+/* menu */
+.sidebar_menu .menu{
+margin-top:20px;
+}
+
+.sidebar_menu .menu li{
+list-style:none;
+padding:15px 20px;
+transition:0.3s;
+}
+
+.sidebar_menu .menu li:hover{
+background:rgba(255,255,255,0.2);
+padding-left:30px;
+}
+
+.sidebar_menu .menu a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+.sidebar_menu .menu i{
+color:white;
+padding-right:10px;
+}
+
+/* social icons */
+.sidebar_menu .social_media{
+position:absolute;
+bottom:50px;
+left:25px;
+}
+
+.sidebar_menu .social_media a{
+color:white;
+opacity:0.6;
+padding:5px;
+font-size:20px;
+transition:0.3s;
+}
+
+.sidebar_menu .social_media a:hover{
+opacity:1;
+transform:scale(1.2);
+}
+
+/* checkbox */
+#check{
+display:none;
+}
+
+/* open sidebar animation */
+#check:checked ~ .sidebar_menu{
+left:0;
+}
+
+/* hide hamburger */
+#check:checked ~ .btn_one{
+opacity:0;
+}
